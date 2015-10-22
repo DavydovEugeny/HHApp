@@ -35,7 +35,7 @@
 
     <tr>
       <td><label for="sal">Зарплата</label></td>
-      <td><input type="text" name="salary"  placeholder="xxxxx.xx" id="sal" pattern="\d*\.?\d+"/></td>
+      <td><input type="text" name="salary"  placeholder="xxxxx.xx" id="sal" pattern="[0-9]+([,.][0-9]{1,2})?"/></td>
     </tr>
 
     <tr>

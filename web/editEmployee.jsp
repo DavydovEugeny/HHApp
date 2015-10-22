@@ -30,7 +30,7 @@
     </tr>
     <tr>
       <td><label for="salary">Зарплата</label> </td>
-      <td><input type="text" name="salary" id="salary" value="${employee.salary}" placeholder="xxxxx.xx" pattern="\d*\.?\d+"/></td>
+      <td><input type="text" name="salary" id="salary" value="${employee.salary}" placeholder="xxxxx.xx" pattern="[0-9]+([,.][0-9]{1,2})?"/></td>
     </tr>
     <tr>
       <td><label for="dep_id">Отдел</label></td>
