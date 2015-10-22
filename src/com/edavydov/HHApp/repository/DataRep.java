@@ -38,6 +38,31 @@ public class DataRep {
             resultSet.close();
         } catch (SQLException e){
             e.printStackTrace();
+        } finally {
+            if(resultSet != null){
+                try {
+                    resultSet.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                resultSet = null;
+            }
+            if(statement != null){
+                try {
+                    statement.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                statement = null;
+            }
+            if(connection != null){
+                try {
+                    connection.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                connection = null;
+            }
         }
         return departments;
     }
@@ -53,6 +78,23 @@ public class DataRep {
             preparedStatement.close();
         } catch (SQLException e){
             e.printStackTrace();
+        } finally {
+            if(preparedStatement != null){
+                try {
+                    preparedStatement.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                preparedStatement = null;
+            }
+            if(connection != null){
+                try {
+                    connection.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                connection = null;
+            }
         }
     }
 
@@ -70,6 +112,23 @@ public class DataRep {
             preparedStatement.close();
         } catch (SQLException e){
             e.printStackTrace();
+        }  finally {
+            if(preparedStatement != null){
+                try {
+                    preparedStatement.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                preparedStatement = null;
+            }
+            if(connection != null){
+                try {
+                    connection.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                connection = null;
+            }
         }
     }
 
@@ -86,6 +145,23 @@ public class DataRep {
             preparedStatement.close();
         } catch (SQLException e){
             e.printStackTrace();
+        } finally {
+            if(preparedStatement != null){
+                try {
+                    preparedStatement.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                preparedStatement = null;
+            }
+            if(connection != null){
+                try {
+                    connection.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                connection = null;
+            }
         }
     }
 
@@ -108,6 +184,31 @@ public class DataRep {
             resultSet.close();
         } catch (SQLException e){
             e.printStackTrace();
+        } finally {
+            if(resultSet != null){
+                try {
+                    resultSet.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                resultSet = null;
+            }
+            if(preparedStatement != null){
+                try {
+                    preparedStatement.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                preparedStatement = null;
+            }
+            if(connection != null){
+                try {
+                    connection.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                connection = null;
+            }
         }
         return department;
     }
@@ -135,6 +236,31 @@ public class DataRep {
             resultSet.close();
         } catch (SQLException e){
             e.printStackTrace();
+        } finally {
+            if(resultSet != null){
+                try {
+                    resultSet.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                resultSet = null;
+            }
+            if(preparedStatement != null){
+                try {
+                    preparedStatement.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                preparedStatement = null;
+            }
+            if(connection != null){
+                try {
+                    connection.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                connection = null;
+            }
         }
         return employees;
     }
@@ -162,6 +288,31 @@ public class DataRep {
             resultSet.close();
         } catch (SQLException e){
             e.printStackTrace();
+        } finally {
+            if(resultSet != null){
+                try {
+                    resultSet.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                resultSet = null;
+            }
+            if(statement != null){
+                try {
+                    statement.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                statement = null;
+            }
+            if(connection != null){
+                try {
+                    connection.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                connection = null;
+            }
         }
         return employees;
     }
@@ -188,6 +339,31 @@ public class DataRep {
             resultSet.close();
         } catch (SQLException e){
             e.printStackTrace();
+        } finally {
+            if(resultSet != null){
+                try {
+                    resultSet.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                resultSet = null;
+            }
+            if(preparedStatement != null){
+                try {
+                    preparedStatement.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                preparedStatement = null;
+            }
+            if(connection != null){
+                try {
+                    connection.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                connection = null;
+            }
         }
         return employee;
     }
@@ -208,6 +384,23 @@ public class DataRep {
             preparedStatement.close();
         } catch (SQLException e){
             e.printStackTrace();
+        } finally {
+            if(preparedStatement != null){
+                try {
+                    preparedStatement.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                preparedStatement = null;
+            }
+            if(connection != null){
+                try {
+                    connection.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                connection = null;
+            }
         }
     }
 
@@ -222,6 +415,23 @@ public class DataRep {
             preparedStatement.close();
         } catch (SQLException e){
             e.printStackTrace();
+        } finally {
+            if(preparedStatement != null){
+                try {
+                    preparedStatement.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                preparedStatement = null;
+            }
+            if(connection != null){
+                try {
+                    connection.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                connection = null;
+            }
         }
     }
 
@@ -236,6 +446,23 @@ public class DataRep {
             preparedStatement.close();
         } catch (SQLException e){
             e.printStackTrace();
+        } finally {
+            if(preparedStatement != null){
+                try {
+                    preparedStatement.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                preparedStatement = null;
+            }
+            if(connection != null){
+                try {
+                    connection.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                connection = null;
+            }
         }
     }
 
@@ -256,6 +483,23 @@ public class DataRep {
             preparedStatement.close();
         } catch (SQLException e){
             e.printStackTrace();
+        } finally {
+            if(preparedStatement != null){
+                try {
+                    preparedStatement.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                preparedStatement = null;
+            }
+            if(connection != null){
+                try {
+                    connection.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                connection = null;
+            }
         }
     }
 
@@ -280,6 +524,31 @@ public class DataRep {
             resultSet.close();
         } catch (SQLException e){
             e.printStackTrace();
+        } finally {
+            if(resultSet != null){
+                try {
+                    resultSet.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                resultSet = null;
+            }
+            if(preparedStatement != null){
+                try {
+                    preparedStatement.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                preparedStatement = null;
+            }
+            if(connection != null){
+                try {
+                    connection.close();
+                } catch (SQLException se){
+                    se.printStackTrace();
+                }
+                connection = null;
+            }
         }
         return departments;
     }
